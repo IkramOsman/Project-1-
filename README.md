@@ -59,10 +59,10 @@ A summary of the access policies in place can be found in the table below.
 ### Elk Configuration
 
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because...
-- _TODO: What is the main advantage of automating configuration with Ansible?_It allows different systems to communicate through related configuration using yaml. 
+- What is the main advantage of automating configuration with Ansible?_It allows different systems to communicate through related configuration using yaml. 
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
+- In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
 - .The ELK installation includes 3 components, logstash, Elasticsearch and Kibana. The first step, start up your azure system, create your virtual machine, establish and configure the container(s) (elk-docker). 
 Once you have established your systems, launch ELK virtual machine to identity and manage.  
 - ...
