@@ -79,18 +79,20 @@ This ELK server is configured to monitor the following machines: Web 1 and Web 2
 - List the IP addresses of the machines you are monitoring_ 10.0.0.5, 10.0.0.6
 
 We have installed the following Beats on these machines:
-- _TODO: Specify which Beats you successfully installed_
+- Specify which Beats you successfully installed_ metricbeat and filebeat
 
 These Beats allow us to collect the following information from each machine:
-- _TODO: In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
+- Metricbeat: collects data to be sent to the specified location for example to logstash. ie: I expect it to operate system and send data to specified output. 
+- Filebeat: collects data of log events. ie: I expect it to centralize my log data. 
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
-- Copy the _____ file to _____.
-- Update the _____ file to include...
-- Run the playbook, and navigate to ____ to check that the installation worked as expected.
+- Copy the _YAML____ file to  Ansible file_____.
+- Update the _Ansible____ file to include playbook
+- Run the playbook, and navigate to container_ to check that the installation worked as expected.
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
