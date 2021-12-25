@@ -75,8 +75,8 @@ The following screenshot displays the result of running `docker ps` after succes
 ![Docker PS output-Screenshot](https://raw.githubusercontent.com/IkramOsman/Project-1-/main/Docker%20PS%20Output%20.png)
 
 ### Target Machines & Beats
-This ELK server is configured to monitor the following machines: Jumpbox and ELK virtual network
-- List the IP addresses of the machines you are monitoring_ 10.1.0.0/16, 20.119.69.6, 10.0.0.4
+This ELK server is configured to monitor the following machines: Web 1 and Web 2 
+- List the IP addresses of the machines you are monitoring_ 10.0.0.5, 10.0.0.6
 
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_
