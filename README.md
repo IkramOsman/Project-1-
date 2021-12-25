@@ -72,7 +72,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![Docker PS output-Screenshot](https://github.com/IkramOsman/Project-1-/blob/main/Docker%20Ps%20Output%20-%20screenshot%20.png)
+![Docker PS output-Screenshot](https://raw.githubusercontent.com/IkramOsman/Project-1-/main/Docker%20PS%20Output%20.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines: Jumpbox and ELK virtual network
