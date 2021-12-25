@@ -25,8 +25,8 @@ Load balancing ensures that the application will be highly Secure_____, in addit
 - _TODO: What aspect of security do load balancers protect? web traffic in and out of the of the network What is the advantage of a jump box? gateway into the network.
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the _networks?____ and system _logs____.
-- _TODO: What does Filebeat watch for?_Watches system log data through events. 
-- _TODO: What does Metricbeat record?_Collects metrics and sends those metrics to specified output.
+- What does Filebeat watch for?_Watches system log data through events. 
+- What does Metricbeat record?_Collects metrics and sends those metrics to specified output.
 
 The configuration details of each machine may be found below.
 _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdown_tables) to add/remove values from the table_.
@@ -46,7 +46,7 @@ Only the host__ machine can accept connections from the Internet. Access to this
 - _TODO: Add whitelisted IP addresses_Jumpbox 10.0.0.4 ELK Virtual Machine 10.1.0.4
 
 Machines within the network can only be accessed by _____.
-- _TODO: Which machine did you allow to access your ELK VM? What was its IP address?_
+- _TODO: Which machine did you allow to access your ELK VM? Jumpbox Machine What was its IP address?_10.0.0.4
 
 A summary of the access policies in place can be found in the table below.
 
