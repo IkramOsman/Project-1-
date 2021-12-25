@@ -52,7 +52,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses           |
 |----------|---------------------|----------------------          |
-|Jump Box  | Yes/No              | 10.0.0.5 10.0.0.6  10.1.0.4    |
+|Jump Box  |     No              | 10.0.0.5 10.0.0.6  10.1.0.4    |
 |LB        |                     | 10.0.0.4  10.0.0.6             |
 |          |                     |                                |
 
@@ -63,9 +63,12 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 
 The playbook implements the following tasks:
 - In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- .The ELK installation includes 3 components, logstash, Elasticsearch and Kibana. The first step, start up your azure system, create your virtual machine, establish and configure the container(s) (elk-docker). 
-Once you have established your systems, launch ELK virtual machine to identity and manage.  
-- ...
+- Use apt module to install docker.io, 
+- use apt module to install pip3, 
+- use pip module to install docker python module, 
+- use system control module to use more memory
+- use docker_container module to download and launch a docker elk container & use systemd module to enable service docker on boot. 
+
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
