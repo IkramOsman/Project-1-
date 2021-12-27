@@ -52,9 +52,9 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses           |
 |----------|---------------------|----------------------          |
-|Jump Box  |     No              | 10.0.0.5 10.0.0.6  10.1.0.4    |
+|Jump Box  |     No              | 10.0.0.5, 10.0.0.6,10.1.0.4    |
 |ELK       |     No              |     10.0.0.4                   |
-|Firewall  |     No              |   10.0.0.4 10.1.0.4            |
+|Firewall  |     No              |   10.0.0.4, 10.1.0.4            |
 
 ### Elk Configuration
 
