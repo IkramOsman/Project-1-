@@ -83,7 +83,7 @@ We have installed the following Beats on these machines:
 
 These Beats allow us to collect the following information from each machine:
 - In 1-2 sentences, explain what kind of data each beat collects, and provide 1 example of what you expect to see. E.g., `Winlogbeat` collects Windows logs, which we use to track user logon events, etc._
-- Metricbeat: collects data to be sent to the specified location for example to logstash. ie: When I'm working on web 1, it records my changes communicates that to output. 
+- Metricbeat: collects data to be sent to the specified location for example to logstash. ie: When I'm working on web 1, it records my changes and communicates that to output. 
 - Filebeat: collects data of log events. ie: I expect it to centralize my log data. 
 
 ### Using the Playbook
